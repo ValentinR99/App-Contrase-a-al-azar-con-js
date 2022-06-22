@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contraseña aleatoria</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ContraseñaAzar.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <p id="recomendacion">Recomendamos que si vas a usar una de estas contraseñas, copiarla o guardarla en algun lugar para evitar el
+            extravio de la misma.</p>
+        <div id="contenedor-botones">
+            <button onclick="contraAzar(10)">Contraseña 10 Digitos</button>
+            <br><br>
+            <button onclick="contraAzar(8)">Contraseña 8 Digitos</button>
+        </div>
+        <p id="contenedor-resultado"><span id="resultado"></span></p>
+        
+        <script src="contraAzar.js"></script>
+    </div>
+</body>
+
+</html>
